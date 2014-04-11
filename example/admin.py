@@ -1,6 +1,6 @@
 from django.contrib import admin
-from test_project.forms import StandardModelForm, StandardModelTwoForm
-from test_project.models import *
+from example.forms import StandardModelForm, StandardModelTwoForm
+from example.models import *
 
 
 class StandardModelTwoInline(admin.StackedInline):
